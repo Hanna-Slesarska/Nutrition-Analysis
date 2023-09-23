@@ -123,6 +123,7 @@ span {
     }
     textarea {
         width: 290px;
+        background: rgba(236, 236, 236, 0.6);
     }
     .table {
         width: 350px;
