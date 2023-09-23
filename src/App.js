@@ -5,6 +5,8 @@ import logoGreen from './greenLogo.png';
 import Calories from './Calories';
 import Swal from'sweetalert2';
 import LoaderPage from './Loader/LoaderPage';
+import strawberry from './strawberry.png';
+import blueberry from './blueberry.png';
 
 
 function App() {
@@ -65,7 +67,11 @@ useEffect(() => {
   return (
     <div className="App">
      
-
+      <div className='imageContainer'>
+          <img className='imgOne image' src={strawberry} alt='strawberry bowl' />
+          <img className='imgTwo image' src={blueberry} alt='blueberry bowl' />
+      
+      </div>
       <div className='lineLogo'>
           <hr className='line'/>
           <img src={logoGreen} alt="green logo" width="38px"/>
