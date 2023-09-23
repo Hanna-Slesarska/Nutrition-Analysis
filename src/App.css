@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
   
 }
@@ -9,9 +10,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-color:rgba(210,225,233,1);
-    
-    
+    background-color:rgb(217, 226, 231);
+    height: 100vh;
   }
 .positionCenter {
     display: flex;
@@ -37,10 +37,10 @@ textarea {
     border-radius: 10px;
     border: none;
     background: rgba(236, 236, 236, 0.4);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    border: 1px solid rgba(236, 236, 236, 0.3);
+    border: 1px solid rgba(168, 168, 168, 0.1);
     padding: 20px;
     font-size: 20px;
 }
@@ -109,7 +109,7 @@ span {
         font-size: 25px;
     }
     textarea {
-        width: 300px;
+        width: 290px;
     }
     .table {
         width: 350px;

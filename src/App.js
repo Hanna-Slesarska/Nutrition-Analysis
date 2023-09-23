@@ -90,8 +90,8 @@ useEffect(() => {
         
         {
           myNutrition && Object.values(myNutrition.totalNutrientsKCal)
-          .map(({ label, quantity, unit,  }) =>
-            <Calories
+          .map(({ label, quantity, unit }, index) =>
+            <Calories key={index}
               label={label}
               quantity={quantity}
               unit={unit}
@@ -100,8 +100,9 @@ useEffect(() => {
         }
         {
           myNutrition && Object.values(myNutrition.totalNutrients)
-            .map(({ label, quantity, unit,  }) =>
+          .map(({ label, quantity, unit },index ) =>
               <Nutrition
+              key={index}
                 label={label}
                 quantity={quantity}
                 unit={unit}
