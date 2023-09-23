@@ -10,7 +10,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 60vh;
+    background-size: cover;
 }
 .image {
     position: absolute;
